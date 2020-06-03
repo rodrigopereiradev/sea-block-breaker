@@ -36,7 +36,7 @@ public class Ball : MonoBehaviour
         }
     }
 
-    private void LauchOnMouseClick()
+    public void LauchOnMouseClick()
     {
         if (Input.GetMouseButtonDown(0))
         {
@@ -45,7 +45,7 @@ public class Ball : MonoBehaviour
         }
     }
 
-    private void LockBallToPaddle()
+    public void LockBallToPaddle()
     {
         Vector2 paddlePosition = new Vector2(paddle1.transform.position.x, paddle1.transform.position.y);
         transform.position = paddlePosition + paddleToBallVector;
@@ -61,5 +61,10 @@ public class Ball : MonoBehaviour
             myAudioSource.PlayOneShot(clip);
             myRigidbody2D.velocity += velocityTweak;
         }
+    }
+
+    public void SetHasStarted(bool hasStarted)
+    {
+        this.hasStarted = hasStarted;
     }
 }

@@ -9,10 +9,12 @@ public class Level : MonoBehaviour
 
     // cached reference
     SceneLoader sceneLoader;
+    GameSession session;
 
     private void Start()
     {
         sceneLoader = FindObjectOfType<SceneLoader>();
+        session = FindObjectOfType<GameSession>();
     }
 
     public void CountBlocks()
@@ -25,6 +27,7 @@ public class Level : MonoBehaviour
         breakbleBlocks--;
         if (breakbleBlocks <= 0) 
         {
+            session.AddLife();
             sceneLoader.LoadNextScene();
         }
     }

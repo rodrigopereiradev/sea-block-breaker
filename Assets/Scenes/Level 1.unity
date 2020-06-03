@@ -963,6 +963,51 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4283594457
       objectReference: {fileID: 0}
+    - target: {fileID: 6063186395827033692, guid: 8322e7e71ac5f5942abcf4f88280f0ff,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6063186395827033692, guid: 8322e7e71ac5f5942abcf4f88280f0ff,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6063186395827033692, guid: 8322e7e71ac5f5942abcf4f88280f0ff,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6063186395827033692, guid: 8322e7e71ac5f5942abcf4f88280f0ff,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6063186395827033692, guid: 8322e7e71ac5f5942abcf4f88280f0ff,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6333573448484114459, guid: 8322e7e71ac5f5942abcf4f88280f0ff,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6333573448484114459, guid: 8322e7e71ac5f5942abcf4f88280f0ff,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6333573448484114459, guid: 8322e7e71ac5f5942abcf4f88280f0ff,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6333573448484114459, guid: 8322e7e71ac5f5942abcf4f88280f0ff,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8322e7e71ac5f5942abcf4f88280f0ff, type: 3}
 --- !u!1001 &298819191156787027

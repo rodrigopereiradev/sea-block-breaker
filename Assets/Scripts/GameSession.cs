@@ -1,15 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 using System;
-
+using TMPro;
 public class GameSession : MonoBehaviour
 {
     // configuration parames
     [Range(0.1f, 10f)] [SerializeField] private float gameSpeed = 1f;
     [SerializeField] TextMeshProUGUI scoreText;
+    [SerializeField] TextMeshProUGUI lifesText;
     [SerializeField] bool isAutoPlayEnabled = false;
+    [SerializeField] int lifes = 3;
 
     // state variables
     [SerializeField] int currentScore = 0;
@@ -31,6 +32,7 @@ public class GameSession : MonoBehaviour
     private void Start()
     {
         scoreText.text = currentScore.ToString();
+        lifesText.text = lifes.ToString();
     }
 
     // Update is called once per frame
@@ -53,5 +55,22 @@ public class GameSession : MonoBehaviour
     public bool IsAutoPlayEnabled()
     {
         return isAutoPlayEnabled;
+    }
+
+    public void SubtractLife() 
+    {
+        lifes--;
+        lifesText.text = lifes.ToString();
+    }
+
+    public void AddLife() 
+    {
+        lifes++;
+        lifesText.text = lifes.ToString();
+    }
+
+    public int GetLifes() 
+    {
+        return lifes;
     }
 }

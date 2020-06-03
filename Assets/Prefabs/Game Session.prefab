@@ -45,9 +45,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameSpeed: 0.7
-  pointsPerBlockDetroyed: 10
   scoreText: {fileID: 2906511966803707808}
+  lifesText: {fileID: 6063186395827033692}
   isAutoPlayEnabled: 0
+  lifes: 3
   currentScore: 0
 --- !u!1001 &225055800283612829
 PrefabInstance:
@@ -202,6 +203,18 @@ RectTransform:
 --- !u!114 &2906511966803707808 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3119180565858353469, guid: d0ea30236a916f14c953b1516c59d74c,
+    type: 3}
+  m_PrefabInstance: {fileID: 225055800283612829}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6063186395827033692 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6285702272643731649, guid: d0ea30236a916f14c953b1516c59d74c,
     type: 3}
   m_PrefabInstance: {fileID: 225055800283612829}
   m_PrefabAsset: {fileID: 0}
