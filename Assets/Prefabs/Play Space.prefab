@@ -162,6 +162,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed9357115376125479d9839407f628a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loserSong: {fileID: 8300000, guid: 75b8c91152f94764aaabc9cf155ad8f1, type: 3}
+  errorClip: {fileID: 8300000, guid: 39f143fe9cdfc9343859a384abb986b1, type: 3}
 --- !u!1 &3464427605926335391
 GameObject:
   m_ObjectHideFlags: 0
