@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Game No Pote Intro.unity
+    guid: f547367ec52041142ad9f8ffa57af7e4
+  - enabled: 1
     path: Assets/Scenes/Start Menu.unity
     guid: 6ed8c3a3a5c9fd74792e6721924eea5d
   - enabled: 1

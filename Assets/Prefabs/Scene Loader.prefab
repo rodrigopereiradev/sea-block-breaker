@@ -43,3 +43,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76a959c0b52d41842afc572267d0c82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  changeSceneSong: {fileID: 8300000, guid: 39f143fe9cdfc9343859a384abb986b1, type: 3}

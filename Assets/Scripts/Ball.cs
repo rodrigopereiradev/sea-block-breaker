@@ -67,4 +67,11 @@ public class Ball : MonoBehaviour
     {
         this.hasStarted = hasStarted;
     }
+
+    public void RestartBallOnError() 
+    {
+        LockBallToPaddle();
+        SetHasStarted(false);
+        LauchOnMouseClick();
+    }
 }
